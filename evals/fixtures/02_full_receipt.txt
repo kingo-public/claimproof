@@ -1,0 +1,9 @@
+DONE       The login form now rejects an empty password.
+MEASURED   Submitting an empty password returns HTTP 400; the previous build returned 200.
+INSTRUMENT curl against the local dev server. Positive control: submitted a valid
+           password and confirmed the same probe returned 200.
+NEGATIVE   Reverted the validation branch; the probe returned 200 and the check
+           went red, then green again after restoring.
+BLIND      Only the API path was exercised. The browser form was not driven, so a
+           client-side-only bypass would be invisible here.
+FALSIFIER  An empty password is accepted again in any environment.

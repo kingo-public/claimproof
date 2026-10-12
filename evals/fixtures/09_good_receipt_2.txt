@@ -1,0 +1,11 @@
+Deployed the new asset pipeline to production.
+
+DONE       The served stylesheet hash changes when the source file changes.
+MEASURED   served URL went from index.css?v=8c3c6d2b to ?v=4f1a9e02
+INSTRUMENT curl against the live production URL. Positive control: requested an
+           unchanged asset twice and confirmed its hash was stable both times.
+NEGATIVE   Reverted the hash interpolation to a hardcoded string; the probe went
+           red, then green again after restoring it.
+BLIND      CDN edge nodes were not exercised; a stale edge cache would still
+           serve the old bytes and this probe would not see it.
+FALSIFIER  A user reports old styling immediately after a fresh CSS deploy.

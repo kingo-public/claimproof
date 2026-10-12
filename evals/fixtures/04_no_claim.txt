@@ -1,0 +1,2 @@
+Here are three options for caching this response. Option A is simplest;
+option B trades memory for latency. Want me to prototype one of them?

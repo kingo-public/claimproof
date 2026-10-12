@@ -1,0 +1,3 @@
+The caching layer works by hashing the key and storing the digest.
+There are three options for where to put the invalidation hook.
+Want me to prototype one of them?

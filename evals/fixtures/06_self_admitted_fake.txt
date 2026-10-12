@@ -1,0 +1,6 @@
+DONE       The import path bug is fixed.
+MEASURED   Nothing was measured. I did not run any command.
+INSTRUMENT n/a
+NEGATIVE   n/a
+BLIND      Everything. I have no evidence whatsoever.
+FALSIFIER  None.

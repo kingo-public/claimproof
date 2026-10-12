@@ -1,0 +1,8 @@
+DONE       The import path bug is fixed.
+MEASURED   
+INSTRUMENT n/a
+NEGATIVE   n/a
+BLIND      The entire claim: I changed code that looked wrong but never reproduced
+           the failure.
+FALSIFIER  Any recurrence of the original error.
+STATUS     UNVERIFIED

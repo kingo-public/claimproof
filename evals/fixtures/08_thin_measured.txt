@@ -1,0 +1,6 @@
+DONE       The timeout is now 5 seconds.
+MEASURED   it works
+INSTRUMENT curl
+NEGATIVE   reverted the change and it failed again as expected
+BLIND      only tested on staging so production is unknown territory
+FALSIFIER  a request takes longer than five seconds in production

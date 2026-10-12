@@ -1,0 +1,8 @@
+Fixed the login bug.
+
+DONE       x
+MEASURED   x
+INSTRUMENT x
+NEGATIVE   x
+BLIND      x
+FALSIFIER  x
