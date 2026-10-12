@@ -130,6 +130,17 @@ claimproof/
     └── zh-Hans/                   简体版 skill 与参考文件
 ```
 
+## Does it work?
+
+Unknown, and partly measured. A two-agent experiment found that **claimproof
+prevented no error** on a small pagination bug — both a control agent and a
+claimproof agent found and fixed it. The measured difference was narrower: the
+claimproof report stated what it had **not** verified, and was machine-checkable.
+
+The same experiment also found that the checker **rejects an honest prose report**
+that is entirely correct, because it grades format rather than truth. Read
+[docs/comparison.md](docs/comparison.md) before trusting either result.
+
 ## The one rule
 
 > **A check that cannot fail cannot verify.**
