@@ -157,6 +157,26 @@ at the code.
 
 ---
 
+## How strong is this evidence? Weak. Say so.
+
+**n = 1 per condition.** One model, one toy bug, one run per arm. This is an
+anecdote, not a study. It cannot tell you the effect size, and the two rounds
+were not blind — I wrote the task, and I wrote the skill.
+
+What it does establish:
+
+- the treatment agent **did** produce the six fields, and its BLIND claim was
+  **true** when checked;
+- the checker **did** reject a correct prose report — reproduced above;
+- on this task, **nothing was caught that the baseline missed.**
+
+What it does not establish: whether any of this generalises to other models,
+longer tasks, or real codebases. The honest summary of the whole experiment is
+that claimproof changed the **shape** of a report and did not change the
+**correctness** of the work.
+
+---
+
 ## What this means for the project
 
 **What claimproof is not:** a way to make a competent model correct. In this
